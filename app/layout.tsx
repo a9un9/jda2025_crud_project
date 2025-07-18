@@ -21,19 +21,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Sidebar */}
           <aside className="w-64 bg-white border-r shadow-sm p-6 flex flex-col justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-blue-600 mb-10">🚀 CRUD App</h1>
+              <h1 className="text-2xl font-bold text-blue-600 mb-10">Sugeng Rawuh Gaes!</h1>
               <nav className="space-y-2 font-medium text-gray-700">
                 <Link
                   href="/dashboard"
                   className="block px-3 py-2 rounded hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
                 >
-                  📊 Dashboard
+                  Dashboard
                 </Link>
                 <Link
                   href="/products"
                   className="block px-3 py-2 rounded hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200"
                 >
-                  📦 Produk
+                  Produk
                 </Link>
               </nav>
             </div>
@@ -50,9 +50,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               >
                 Manajemen Produk
               </Link>
-              <div className="text-sm text-gray-500">
-                Dibuat dengan <span className="font-semibold text-blue-600">Next.js</span>
-              </div>
             </header>
 
             {/* Page Content */}
